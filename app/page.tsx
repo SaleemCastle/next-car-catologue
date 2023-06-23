@@ -12,10 +12,7 @@ export default async function Home({ searchParams }: any) {
         model: searchParams.model || '',
     })
 
-    console.log(allCars.length)
     const isDataEmpty = !Array.isArray(allCars) || allCars.length === 0
-
-
     return (
         <main className="overflow-hidden">
             <Hero />
