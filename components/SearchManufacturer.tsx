@@ -40,7 +40,7 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }: ISearchManufactur
                         leaveTo='opacity-0'
                         afterLeave={ () => setQuery('') }
                     >
-                        <Combobox.Options>
+                        <Combobox.Options className='w-full absolute bg-white z-50'>
                             {
                                 filteredManufacturers.length === 0 && query !== '' ? (
                                     <Combobox.Option
