@@ -32,6 +32,7 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }: ISearchManufactur
                         displayValue={ (manufacturer: string) => manufacturer }
                         onChange={ (e) => setQuery(e.target.value) }
                     />
+                    {/* Initialize comments */}
 
                     <Transition
                         as={ Fragment }
