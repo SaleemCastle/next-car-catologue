@@ -1,6 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
+
 import { ICustomButtonProps } from '@/types'
 
 const CustomButton = ({ title, containerStyles, handleClick, btnType, textStyles, rightIcon }: ICustomButtonProps) => {

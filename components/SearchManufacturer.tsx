@@ -1,12 +1,12 @@
 'use client'
-
 import React, { Fragment, useState } from 'react'
 import Image from 'next/image'
 
 import { Combobox, Transition} from '@headlessui/react'
 import { ISearchManufacturerProps } from '@/types'
-import CarLogo from '../public/car-logo.svg'
 import { manufacturers } from '@/constants'
+
+import CarLogo from '@/public/car-logo.svg'
 
 const SearchManufacturer = ({ manufacturer, setManufacturer }: ISearchManufacturerProps) => {
     const [query, setQuery] = useState('')

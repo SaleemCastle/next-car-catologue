@@ -1,7 +1,8 @@
 'use client'
 import React, { useState } from 'react'
-import { useRouter } from 'next/navigation'
 import Image from 'next/image'
+import { useRouter } from 'next/navigation'
+
 import SearchManufacturer from './SearchManufacturer'
 
 const SearchButton = ({ otherClasses }: { otherClasses: string }) => (

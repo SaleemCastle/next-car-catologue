@@ -1,10 +1,12 @@
 'use client'
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { ICarProps } from '@/types'
-import { calculateCarRent, generateCarImageUrl } from '@/utils'
+
 import CustomButton from './CustomButton'
 import CarDetails from './CarDetails'
+import { calculateCarRent, generateCarImageUrl } from '@/utils'
+import { ICarProps } from '@/types'
+
 
 interface CarCardProps {
     car: ICarProps;

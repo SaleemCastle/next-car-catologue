@@ -1,10 +1,10 @@
 'use client'
 import React, { useState, Fragment } from 'react'
-
 import Image from 'next/image'
-import router, { useRouter } from 'next/navigation'
-import { ICustomFilterProps, OptionProps } from '@/types'
+import { useRouter } from 'next/navigation'
 import { Listbox, Transition } from '@headlessui/react'
+
+import { ICustomFilterProps, OptionProps } from '@/types'
 import { updateSearchParams } from '@/utils'
 
 const CustomFilter = ({ title, options }: ICustomFilterProps) => {
